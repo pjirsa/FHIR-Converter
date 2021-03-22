@@ -1,0 +1,35 @@
+{
+    "sourceSystemCode": "RxClaims",
+    "sourceSystemInstance": "RXDV1",
+    "memberId": "MN43481-M2",
+    "carrierId": "MN43481C1",
+    "accountId": "MN43481A1",
+    "groupId": "MN43481G2",
+    "cagmiKey": "RXDV1-MN43481C1-MN43481A1-MN43481G2-MN43481-M2",
+    "documentType": "Active",
+    "azureCreateDate": "2020-08-03T04:50:46.3460000Z",
+    "azureUpdateDate": "2020-08-08T00:15:40.8710000Z",
+    "eligibility": [
+        {
+            "eligibilitySequenceNumber": 99999,
+            "eligibilityStatus": "A",
+            "eligibilityStartDate": "20200101",
+            "eligibilityEndDate": "20201231",
+            "planCode": null,
+            "planEffectiveDate": "0",
+            "copayBrand": 0,
+            "copayGeneric": 0,
+            "copay3": 0,
+            "copay4": 0,
+            "clientProductCode": null,
+            "clientRiderCode": null,
+            "spendDownAmount": 0,
+            "createUser": null,
+            "createDate": "20200506",
+            "createTime": null,
+            "updateUser": "MAMO",
+            "updateDate": "20200506",
+            "updateTime": "105945"
+        }
+    ]
+}

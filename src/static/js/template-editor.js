@@ -37,7 +37,8 @@ var dataTemplateSplit;
 
 var dataTypeMappings = {
     'HL7v2': 'hl7v2',
-    'CDA': 'cda'
+    'CDA': 'cda',
+    'Canonical': 'canonical'
 };
 
 function getSettings() {
@@ -351,6 +352,7 @@ function changeDataType(dataType) {
 
         switch (dataType) {
             case 'HL7v2':
+            case 'Canonical':
                 $('#editor-wrapper').addClass('vertical-content');
 
                 // Create splits for editor areas
@@ -521,7 +523,7 @@ $(document).ready(function () {
     });
 
     $('#refresh-button').on('click', function () {
-        convertMessage();
+        convertData();
     });
 
     $("#new-branch-modal").on('show.bs.modal', function () {
